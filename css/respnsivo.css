@@ -1,0 +1,1628 @@
+@media(max-width:1285px) {
+
+    /* --------------------ORGANIZAÇÃO DO CABEÇALHO-------------------- */
+    .body .cabecalho {
+        padding: 0 50px 0 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: aquamarine; */
+    }
+
+    .body .cabecalho img {
+        width: 166px;
+        height: 49px;
+    }
+
+    .body .cabecalho .navegacao ul {
+        display: flex;
+        gap: 35px;
+        font-family: 'Raleway';
+    }
+
+    .body .cabecalho .navegacao ul li a {
+        color: var(--Very-Dark-Blue);
+    }
+
+    /* --------------------------ORGANIZAÇÃO DO MAIN------------------------ */
+
+    /* --------------------ORGANIZAÇÃO DA PRIMEIRA SEÇÃO-------------------- */
+    .body .main .primeiro-quadro {
+        display: flex;
+        justify-content: space-between;
+        /* background-color: rgb(159, 172, 147); */
+        padding: 0 50px 0 70px;
+        width: auto;
+        height: auto;
+    }
+
+    .body .main .primeiro-quadro .informacoes {
+        width: 500px;
+        height: auto;
+    }
+
+    .body .main .primeiro-quadro .informacoes h1 {
+        font-size: 33px;
+        font-family: 'Raleway';
+        line-height: 130%;
+        color: var(--Very-Dark-Blue);
+        margin: 80px 0 15px 0;
+    }
+
+    .body .main .primeiro-quadro .informacoes p {
+        font-size: 15px;
+        font-family: 'Open Sans';
+        color: var(--Very-Dark-Blue);
+        padding: 0 20px 0 0;
+        margin: 0 0 15px 0;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email] {
+        padding: 10px 120px 10px 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email]:invalid {
+        border: 1px solid red;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email]:hover {
+        border: 1px solid black;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=submit] {
+        padding: 11px 50px 11px 50px;
+        border: none;
+        border-radius: 5px;
+        color: var(--fundo);
+        background-color: var(--Bright-Blue);
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=submit]:hover {
+        background-color: hsl(224, 93%, 58%, 0.6);
+        cursor: pointer;
+    }
+
+    .body .main .primeiro-quadro img {
+        width: 500px;
+        height: 350px;
+        margin: 0 0 100px 0;
+    }
+
+    /* --------------------ORGANIZAÇÃO DA SEGUNDA SEÇÃO-------------------- */
+    .body .main .segundo-quadro {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--Light-Grayish-Blue);
+        padding: 0 50px 0 70px;
+        width: auto;
+        height: auto;
+    }
+
+    .body .main .segundo-quadro .informacoes {
+        width: 560px;
+        height: auto;
+        /* background-color: rgb(137, 192, 85); */
+    }
+
+    .body .main .segundo-quadro .informacoes h1 {
+        font-family: 'Raleway';
+        font-size: 33px;
+        color: var(--Very-Dark-Blue);
+        margin: 0 0 25px 0;
+    }
+
+    .body .main .segundo-quadro .informacoes p {
+        font-family: 'Open Sans';
+        font-size: 15px;
+        padding: 0 65px 0 0;
+        color: var(--Very-Dark-Blue);
+        margin: 0 0 20px 0;
+    }
+
+    .body .main .segundo-quadro .informacoes a {
+        color: var(--Moderate-Cyan);
+        padding: 5px 0;
+        border-bottom: 1px solid;
+        font-size: 15px;
+    }
+
+    .body .main .segundo-quadro .informacoes a:hover {
+        color: hsl(170, 45%, 43%, 0.6);
+    }
+
+    .body .main .segundo-quadro .informacoes a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia {
+        display: flex;
+        flex-direction: column;
+        width: 325px;
+        height: auto;
+        box-shadow: 0 0 10px var(--Light-Gray);
+        margin: 50px 0 100px 0;
+        padding: 25px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia img {
+        width: 15px;
+        height: 15px;
+        margin: 0 0 10px 0;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia p {
+        padding: 0 5px 0 0;
+        margin: 0 0 15px 0;
+        font-size: 13px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario {
+        display: flex;
+        gap: 10px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario img {
+        width: 35px;
+        height: 35px;
+        border-radius: 100px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario .usuario h4 {
+        font-size: 14px;
+        color: var(--Very-Dark-Blue);
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario .usuario p {
+        font-size: 10px;
+    }
+
+    .body .main .segundo-quadro img {
+        width: 450px;
+        height: 400px;
+    }
+
+    /* --------------------------ORGANIZAÇÃO DO ASIDE-------------------------- */
+    .body .aside {
+        background-color: var(--Desaturated-Blue);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+        padding: 0 60px 0 70px;
+    }
+
+    .body .aside .acesso-antecipado {
+        width: 530px;
+        color: var(--fundo);
+    }
+
+    .body .aside .acesso-antecipado h1 {
+        font-family: 'Raleway';
+        font-size: 33px;
+        margin: 0 0 25px 0;
+    }
+
+    .body .aside .acesso-antecipado p {
+        font-family: 'Open Sans';
+        font-size: 15px;
+    }
+
+    .body .aside form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body .aside form input[type=email] {
+        padding: 13px 180px 13px 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin: 0 0 15px 0;
+    }
+
+    .body .aside form input[type=email]:invalid {
+        border: 1px solid red;
+    }
+
+    .body .aside form input[type=email]:hover {
+        border: 1px solid black;
+    }
+
+    .body .aside form input[type=submit] {
+        padding: 13px;
+        width: 180px;
+        background-color: var(--Bright-Blue);
+        color: var(--fundo);
+        border: none;
+        border-radius: 5px;
+    }
+
+    .body .aside form input[type=submit]:hover {
+        background-color: hsl(224, 93%, 68%);
+        cursor: pointer;
+    }
+
+    /* --------------------ORGANIZAÇÃO DO RODAPÉ-------------------- */
+    .body .rodape {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--Very-Dark-Blue);
+        justify-content: center;
+        padding: 50px 200px 0 70px;
+    }
+
+    .body .rodape svg {
+        color: var(--fundo);
+        margin: 0 0 35px 0;
+    }
+
+    .body .rodape .informacoes-de-contato {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .body .rodape .informacoes-de-contato .contato p {
+        color: var(--fundo);
+        margin: 0 0 15px 0;
+        font-size: 15px;
+    }
+
+    .body .rodape .informacoes-de-contato .links {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        height: 150px;
+        width: 350px;
+        font-size: 15px;
+    }
+
+    .body .rodape .informacoes-de-contato .links a {
+        font-family: 'Open Sans';
+        color: #ffffff;
+    }
+
+    .body .rodape .informacoes-de-contato .links a:hover {
+        color: var(--Bright-Blue);
+    }
+
+    .body .rodape .informacoes-de-contato .links a:focus {
+        color: var(--Bright-Blue);
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais {
+        display: flex;
+        gap: 35px;
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais .fa-facebook,
+    .fa-twitter,
+    .fa-instagram {
+        width: 30px;
+        height: 30px;
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais .fa-facebook :hover,
+    .fa-twitter :hover,
+    .fa-instagram :hover {
+        color: var(--Bright-Blue);
+    }
+}
+
+@media(max-width: 1145px) {
+    /* --------------------ORGANIZAÇÃO DO CABEÇALHO-------------------- */
+    .body .cabecalho {
+        padding: 0 50px 0 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: aquamarine; */
+    }
+
+    .body .cabecalho img {
+        width: 166px;
+        height: 49px;
+    }
+
+    .body .cabecalho .navegacao ul {
+        display: flex;
+        gap: 35px;
+        font-family: 'Raleway';
+    }
+
+    .body .cabecalho .navegacao ul li a {
+        color: var(--Very-Dark-Blue);
+    }
+
+    /* --------------------------ORGANIZAÇÃO DO MAIN------------------------ */
+
+    /* --------------------ORGANIZAÇÃO DA PRIMEIRA SEÇÃO-------------------- */
+    .body .main .primeiro-quadro {
+        display: flex;
+        justify-content: space-between;
+        /* background-color: rgb(159, 172, 147); */
+        padding: 0 50px 0 70px;
+        width: auto;
+        height: auto;
+    }
+
+    .body .main .primeiro-quadro .informacoes {
+        width: 400px;
+        height: auto;
+    }
+
+    .body .main .primeiro-quadro .informacoes h1 {
+        font-size: 27px;
+        font-family: 'Raleway';
+        line-height: 130%;
+        color: var(--Very-Dark-Blue);
+        margin: 80px 0 15px 0;
+    }
+
+    .body .main .primeiro-quadro .informacoes p {
+        font-size: 14px;
+        font-family: 'Open Sans';
+        color: var(--Very-Dark-Blue);
+        padding: 0 0 0 0;
+        margin: 0 0 15px 0;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email] {
+        padding: 10px 80px 10px 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email]:invalid {
+        border: 1px solid red;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email]:hover {
+        border: 1px solid black;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=submit] {
+        padding: 11px 25px 11px 25px;
+        border: none;
+        border-radius: 5px;
+        color: var(--fundo);
+        background-color: var(--Bright-Blue);
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=submit]:hover {
+        background-color: hsl(224, 93%, 58%, 0.6);
+        cursor: pointer;
+    }
+
+    .body .main .primeiro-quadro img {
+        width: 450px;
+        height: 300px;
+        margin: 0 0 100px 0;
+    }
+
+    /* --------------------ORGANIZAÇÃO DA SEGUNDA SEÇÃO-------------------- */
+    .body .main .segundo-quadro {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--Light-Grayish-Blue);
+        padding: 0 50px 0 70px;
+        width: auto;
+        height: auto;
+    }
+
+    .body .main .segundo-quadro .informacoes {
+        width: 460px;
+        height: auto;
+        /* background-color: rgb(137, 192, 85); */
+    }
+
+    .body .main .segundo-quadro .informacoes h1 {
+        font-family: 'Raleway';
+        font-size: 27px;
+        color: var(--Very-Dark-Blue);
+        margin: 0 0 25px 0;
+    }
+
+    .body .main .segundo-quadro .informacoes p {
+        font-family: 'Open Sans';
+        font-size: 14px;
+        padding: 0 65px 0 0;
+        color: var(--Very-Dark-Blue);
+        margin: 0 0 20px 0;
+    }
+
+    .body .main .segundo-quadro .informacoes a {
+        color: var(--Moderate-Cyan);
+        padding: 5px 0;
+        border-bottom: 1px solid;
+        font-size: 14px;
+    }
+
+    .body .main .segundo-quadro .informacoes a:hover {
+        color: hsl(170, 45%, 43%, 0.6);
+    }
+
+    .body .main .segundo-quadro .informacoes a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia {
+        display: flex;
+        flex-direction: column;
+        width: 325px;
+        height: auto;
+        box-shadow: 0 0 10px var(--Light-Gray);
+        margin: 50px 0 100px 0;
+        padding: 25px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia img {
+        width: 15px;
+        height: 15px;
+        margin: 0 0 10px 0;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia p {
+        padding: 0 5px 0 0;
+        margin: 0 0 15px 0;
+        font-size: 12px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario {
+        display: flex;
+        gap: 10px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario img {
+        width: 35px;
+        height: 35px;
+        border-radius: 100px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario .usuario h4 {
+        font-size: 14px;
+        color: var(--Very-Dark-Blue);
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario .usuario p {
+        font-size: 10px;
+    }
+
+    .body .main .segundo-quadro img {
+        width: 400px;
+        height: 350px;
+    }
+
+    /* --------------------------ORGANIZAÇÃO DO ASIDE-------------------------- */
+    .body .aside {
+        background-color: var(--Desaturated-Blue);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+        padding: 0 60px 0 70px;
+    }
+
+    .body .aside .acesso-antecipado {
+        width: 430px;
+        color: var(--fundo);
+    }
+
+    .body .aside .acesso-antecipado h1 {
+        font-family: 'Raleway';
+        font-size: 27px;
+        margin: 0 0 25px 0;
+    }
+
+    .body .aside .acesso-antecipado p {
+        font-family: 'Open Sans';
+        font-size: 14px;
+    }
+
+    .body .aside form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body .aside form input[type=email] {
+        padding: 13px 150px 13px 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin: 0 0 15px 0;
+    }
+
+    .body .aside form input[type=email]:invalid {
+        border: 1px solid red;
+    }
+
+    .body .aside form input[type=email]:hover {
+        border: 1px solid black;
+    }
+
+    .body .aside form input[type=submit] {
+        padding: 13px;
+        width: 160px;
+        background-color: var(--Bright-Blue);
+        color: var(--fundo);
+        border: none;
+        border-radius: 5px;
+    }
+
+    .body .aside form input[type=submit]:hover {
+        background-color: hsl(224, 93%, 68%);
+        cursor: pointer;
+    }
+
+    /* --------------------ORGANIZAÇÃO DO RODAPÉ-------------------- */
+    .body .rodape {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--Very-Dark-Blue);
+        justify-content: center;
+        padding: 50px 200px 0 70px;
+    }
+
+    .body .rodape svg {
+        color: var(--fundo);
+        margin: 0 0 35px 0;
+    }
+
+    .body .rodape .informacoes-de-contato {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .body .rodape .informacoes-de-contato .contato p {
+        color: var(--fundo);
+        margin: 0 0 15px 0;
+        font-size: 15px;
+    }
+
+    .body .rodape .informacoes-de-contato .links {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        height: 150px;
+        width: 350px;
+        font-size: 14px;
+    }
+
+    .body .rodape .informacoes-de-contato .links a {
+        font-family: 'Open Sans';
+        color: #ffffff;
+    }
+
+    .body .rodape .informacoes-de-contato .links a:hover {
+        color: var(--Bright-Blue);
+    }
+
+    .body .rodape .informacoes-de-contato .links a:focus {
+        color: var(--Bright-Blue);
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais {
+        display: flex;
+        gap: 35px;
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais .fa-facebook,
+    .fa-twitter,
+    .fa-instagram {
+        width: 25px;
+        height: 25px;
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais .fa-facebook :hover,
+    .fa-twitter :hover,
+    .fa-instagram :hover {
+        color: var(--Bright-Blue);
+    }
+}
+
+@media(max-width: 995px) {
+    /* --------------------ORGANIZAÇÃO DO CABEÇALHO-------------------- */
+    .body .cabecalho {
+        padding: 0 50px 0 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: aquamarine; */
+    }
+
+    .body .cabecalho img {
+        width: 136px;
+        height: 39px;
+    }
+
+    .body .cabecalho .navegacao ul {
+        display: flex;
+        gap: 35px;
+        font-family: 'Raleway';
+    }
+
+    .body .cabecalho .navegacao ul li a {
+        color: var(--Very-Dark-Blue);
+        font-size: 14px;
+    }
+
+    /* --------------------------ORGANIZAÇÃO DO MAIN------------------------ */
+
+    /* --------------------ORGANIZAÇÃO DA PRIMEIRA SEÇÃO-------------------- */
+    .body .main .primeiro-quadro {
+        display: flex;
+        justify-content: space-between;
+        /* background-color: rgb(159, 172, 147); */
+        padding: 0 50px 0 70px;
+        width: auto;
+        height: auto;
+    }
+
+    .body .main .primeiro-quadro .informacoes {
+        width: 300px;
+        height: auto;
+    }
+
+    .body .main .primeiro-quadro .informacoes h1 {
+        font-size: 23px;
+        font-family: 'Raleway';
+        line-height: 130%;
+        color: var(--Very-Dark-Blue);
+        margin: 50px 0 15px 0;
+    }
+
+    .body .main .primeiro-quadro .informacoes p {
+        font-size: 13px;
+        font-family: 'Open Sans';
+        color: var(--Very-Dark-Blue);
+        padding: 0 0 0 0;
+        margin: 0 0 15px 0;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email]:invalid {
+        border: 1px solid red;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email]:hover {
+        border: 1px solid black;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=submit] {
+        padding: 11px 15px 11px 15px;
+        border: none;
+        border-radius: 5px;
+        color: var(--fundo);
+        background-color: var(--Bright-Blue);
+        margin: 0 0 100px 0;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=submit]:hover {
+        background-color: hsl(224, 93%, 58%, 0.6);
+        cursor: pointer;
+    }
+
+    .body .main .primeiro-quadro img {
+        width: 400px;
+        height: 250px;
+        margin: 50px 0 0 0;
+    }
+
+    /* --------------------ORGANIZAÇÃO DA SEGUNDA SEÇÃO-------------------- */
+    .body .main .segundo-quadro {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--Light-Grayish-Blue);
+        padding: 0 50px 0 70px;
+        width: auto;
+        height: auto;
+    }
+
+    .body .main .segundo-quadro .informacoes {
+        width: 375px;
+        height: auto;
+        /* background-color: rgb(137, 192, 85); */
+    }
+
+    .body .main .segundo-quadro .informacoes h1 {
+        font-family: 'Raleway';
+        font-size: 23px;
+        color: var(--Very-Dark-Blue);
+        margin: 0 0 25px 0;
+    }
+
+    .body .main .segundo-quadro .informacoes p {
+        font-family: 'Open Sans';
+        font-size: 13px;
+        padding: 0 65px 0 0;
+        color: var(--Very-Dark-Blue);
+        margin: 0 0 20px 0;
+    }
+
+    .body .main .segundo-quadro .informacoes a {
+        color: var(--Moderate-Cyan);
+        padding: 5px 0;
+        border-bottom: 1px solid;
+        font-size: 13px;
+    }
+
+    .body .main .segundo-quadro .informacoes a:hover {
+        color: hsl(170, 45%, 43%, 0.6);
+    }
+
+    .body .main .segundo-quadro .informacoes a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia {
+        display: flex;
+        flex-direction: column;
+        width: 325px;
+        height: auto;
+        box-shadow: 0 0 10px var(--Light-Gray);
+        margin: 50px 0 100px 0;
+        padding: 25px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia img {
+        width: 15px;
+        height: 15px;
+        margin: 0 0 10px 0;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia p {
+        padding: 0 5px 0 0;
+        margin: 0 0 15px 0;
+        font-size: 12px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario {
+        display: flex;
+        gap: 10px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario img {
+        width: 35px;
+        height: 35px;
+        border-radius: 100px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario .usuario h4 {
+        font-size: 14px;
+        color: var(--Very-Dark-Blue);
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario .usuario p {
+        font-size: 10px;
+    }
+
+    .body .main .segundo-quadro img {
+        width: 350px;
+        height: 300px;
+    }
+
+    /* --------------------------ORGANIZAÇÃO DO ASIDE-------------------------- */
+    .body .aside {
+        background-color: var(--Desaturated-Blue);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+        padding: 0 60px 0 70px;
+    }
+
+    .body .aside .acesso-antecipado {
+        width: 300px;
+        color: var(--fundo);
+    }
+
+    .body .aside .acesso-antecipado h1 {
+        font-family: 'Raleway';
+        font-size: 23px;
+        margin: 0 0 25px 0;
+    }
+
+    .body .aside .acesso-antecipado p {
+        font-family: 'Open Sans';
+        font-size: 13px;
+    }
+
+    .body .aside form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body .aside form input[type=email] {
+        padding: 10px 150px 10px 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin: 0 0 15px 0;
+    }
+
+    .body .aside form input[type=email]:invalid {
+        border: 1px solid red;
+    }
+
+    .body .aside form input[type=email]:hover {
+        border: 1px solid black;
+    }
+
+    .body .aside form input[type=submit] {
+        padding: 11px;
+        width: 160px;
+        background-color: var(--Bright-Blue);
+        color: var(--fundo);
+        border: none;
+        border-radius: 5px;
+    }
+
+    .body .aside form input[type=submit]:hover {
+        background-color: hsl(224, 93%, 68%);
+        cursor: pointer;
+    }
+
+    /* --------------------ORGANIZAÇÃO DO RODAPÉ-------------------- */
+    .body .rodape {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--Very-Dark-Blue);
+        justify-content: center;
+        padding: 50px 80px 0 70px;
+    }
+
+    .body .rodape svg {
+        color: var(--fundo);
+        margin: 0 0 35px 0;
+    }
+
+    .body .rodape .informacoes-de-contato {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .body .rodape .informacoes-de-contato .contato p {
+        color: var(--fundo);
+        margin: 0 0 15px 0;
+        font-size: 15px;
+    }
+
+    .body .rodape .informacoes-de-contato .links {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        height: 150px;
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .body .rodape .informacoes-de-contato .links a {
+        font-family: 'Open Sans';
+        color: #ffffff;
+    }
+
+    .body .rodape .informacoes-de-contato .links a:hover {
+        color: var(--Bright-Blue);
+    }
+
+    .body .rodape .informacoes-de-contato .links a:focus {
+        color: var(--Bright-Blue);
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais {
+        display: flex;
+        gap: 35px;
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais .fa-facebook,
+    .fa-twitter,
+    .fa-instagram {
+        width: 25px;
+        height: 25px;
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais .fa-facebook :hover,
+    .fa-twitter :hover,
+    .fa-instagram :hover {
+        color: var(--Bright-Blue);
+    }
+}
+
+@media(max-width: 860px) {
+    /* --------------------ORGANIZAÇÃO DO CABEÇALHO-------------------- */
+    .body .cabecalho {
+        padding: 0 50px 0 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: aquamarine; */
+    }
+
+    .body .cabecalho img {
+        width: 136px;
+        height: 39px;
+    }
+
+    .body .cabecalho .navegacao ul {
+        display: flex;
+        gap: 35px;
+        font-family: 'Raleway';
+    }
+
+    .body .cabecalho .navegacao ul li a {
+        color: var(--Very-Dark-Blue);
+        font-size: 14px;
+    }
+
+    /* --------------------------ORGANIZAÇÃO DO MAIN------------------------ */
+
+    /* --------------------ORGANIZAÇÃO DA PRIMEIRA SEÇÃO-------------------- */
+    .body .main .primeiro-quadro {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        /* background-color: rgb(159, 172, 147); */
+        padding: 0 50px 0 70px;
+        width: auto;
+        height: auto;
+    }
+
+    .body .main .primeiro-quadro .informacoes {
+        width: 300px;
+        height: auto;
+    }
+
+    .body .main .primeiro-quadro .informacoes h1 {
+        font-size: 23px;
+        font-family: 'Raleway';
+        line-height: 130%;
+        color: var(--Very-Dark-Blue);
+        margin: 50px 0 15px 0;
+        text-align: center;
+    }
+
+    .body .main .primeiro-quadro .informacoes p {
+        font-size: 13px;
+        font-family: 'Open Sans';
+        color: var(--Very-Dark-Blue);
+        padding: 0 0 0 0;
+        margin: 0 0 15px 0;
+        text-align: center;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email]:invalid {
+        border: 1px solid red;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email]:hover {
+        border: 1px solid black;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=submit] {
+        padding: 11px 15px 11px 15px;
+        border: none;
+        border-radius: 5px;
+        color: var(--fundo);
+        background-color: var(--Bright-Blue);
+        margin: 0 0 100px 0;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=submit]:hover {
+        background-color: hsl(224, 93%, 58%, 0.6);
+        cursor: pointer;
+    }
+
+    .body .main .primeiro-quadro img {
+        width: 400px;
+        height: 250px;
+        margin: 50px 0 0 0;
+    }
+
+    /* --------------------ORGANIZAÇÃO DA SEGUNDA SEÇÃO-------------------- */
+    .body .main .segundo-quadro {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        background-color: var(--Light-Grayish-Blue);
+        padding: 0 50px 0 70px;
+        width: auto;
+        height: auto;
+    }
+
+    .body .main .segundo-quadro .informacoes {
+        width: 375px;
+        height: auto;
+        /* background-color: rgb(137, 192, 85); */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body .main .segundo-quadro .informacoes h1 {
+        font-family: 'Raleway';
+        font-size: 20px;
+        color: var(--Very-Dark-Blue);
+        margin: 0 0 25px 0;
+        text-align: center;
+    }
+
+    .body .main .segundo-quadro .informacoes p {
+        font-family: 'Open Sans';
+        font-size: 13px;
+        padding: 0 0 0 0;
+        color: var(--Very-Dark-Blue);
+        margin: 0 0 15px 0;
+        text-align: center;
+        width: 320px;
+    }
+
+    .body .main .segundo-quadro .informacoes a {
+        color: var(--Moderate-Cyan);
+        padding: 5px 0;
+        border-bottom: none;
+        font-size: 13px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .body .main .segundo-quadro .informacoes a:hover {
+        color: hsl(170, 45%, 43%, 0.6);
+    }
+
+    .body .main .segundo-quadro .informacoes a img {
+        width: 20px;
+        height: 20px;
+        margin: 0;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 190px;
+        box-shadow: 0 0 10px var(--Light-Gray);
+        margin: 50px 0 100px 0;
+        padding: 25px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia img {
+        width: 15px;
+        height: 15px;
+        margin: 0 0 10px 0;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia p {
+        padding: 0 0 0 0;
+        margin: 0 0 15px 0;
+        font-size: 12px;
+        width: 270px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario {
+        display: flex;
+        gap: 10px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario img {
+        width: 35px;
+        height: 35px;
+        border-radius: 100px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario .usuario h4 {
+        font-size: 14px;
+        color: var(--Very-Dark-Blue);
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario .usuario p {
+        font-size: 10px;
+        text-align: start;
+    }
+
+    .body .main .segundo-quadro img {
+        width: 350px;
+        height: 300px;
+        margin: 0 0 80px 0;
+    }
+
+    /* --------------------------ORGANIZAÇÃO DO ASIDE-------------------------- */
+    .body .aside {
+        background-color: var(--Desaturated-Blue);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        width: auto;
+        padding: 0 0 0 0;
+    }
+
+    .body .aside .acesso-antecipado {
+        width: 300px;
+        color: var(--fundo);
+    }
+
+    .body .aside .acesso-antecipado h1 {
+        font-family: 'Raleway';
+        font-size: 23px;
+        margin: 25px 0 15px 0;
+        text-align: center;
+        width: 290px;
+    }
+
+    .body .aside .acesso-antecipado p {
+        font-family: 'Open Sans';
+        font-size: 13px;
+        text-align: center;
+        width: 290px;
+    }
+
+    .body .aside form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body .aside form input[type=email] {
+        padding: 10px 110px 10px 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin: 0 0 15px 0;
+    }
+
+    .body .aside form input[type=email]:invalid {
+        border: 1px solid red;
+    }
+
+    .body .aside form input[type=email]:hover {
+        border: 1px solid black;
+    }
+
+    .body .aside form input[type=submit] {
+        padding: 11px;
+        width: auto;
+        background-color: var(--Bright-Blue);
+        color: var(--fundo);
+        border: none;
+        border-radius: 5px;
+    }
+
+    .body .aside form input[type=submit]:hover {
+        background-color: hsl(224, 93%, 68%);
+        cursor: pointer;
+    }
+
+    /* --------------------ORGANIZAÇÃO DO RODAPÉ-------------------- */
+    .body .rodape {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--Very-Dark-Blue);
+        justify-content: center;
+        align-items: center;
+        padding: 50px 80px 0 70px;
+    }
+
+    .body .rodape svg {
+        color: var(--fundo);
+        margin: 0 0 35px 0;
+    }
+
+    .body .rodape .informacoes-de-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .body .rodape .informacoes-de-contato .contato p {
+        color: var(--fundo);
+        margin: 0 0 15px 0;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .body .rodape .informacoes-de-contato .links {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        width: auto;
+        font-size: 14px;
+        margin: 0 0 15px 0;
+        text-align: center;
+    }
+
+    .body .rodape .informacoes-de-contato .links a {
+        font-family: 'Open Sans';
+        color: #ffffff;
+    }
+
+    .body .rodape .informacoes-de-contato .links a:hover {
+        color: var(--Bright-Blue);
+    }
+
+    .body .rodape .informacoes-de-contato .links a:focus {
+        color: var(--Bright-Blue);
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais {
+        display: flex;
+        gap: 35px;
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais .fa-facebook,
+    .fa-twitter,
+    .fa-instagram {
+        width: 25px;
+        height: 25px;
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais .fa-facebook :hover,
+    .fa-twitter :hover,
+    .fa-instagram :hover {
+        color: var(--Bright-Blue);
+    }
+}
+
+@media(max-width: 535px) {
+    /* --------------------ORGANIZAÇÃO DO CABEÇALHO-------------------- */
+    .body .cabecalho {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* background-color: aquamarine; */
+        width: auto;
+    }
+
+    .body .cabecalho img {
+        width: 90px;
+        height: 25px;
+    }
+
+    .body .cabecalho .navegacao ul {
+        display: flex;
+        gap: 10px;
+        font-family: 'Raleway';
+    }
+
+    .body .cabecalho .navegacao ul li a {
+        color: var(--Very-Dark-Blue);
+        font-size: 14px;
+    }
+
+    /* --------------------------ORGANIZAÇÃO DO MAIN------------------------ */
+
+    /* --------------------ORGANIZAÇÃO DA PRIMEIRA SEÇÃO-------------------- */
+    .body .main .primeiro-quadro {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        /* background-color: rgb(159, 172, 147); */
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .body .main .primeiro-quadro .informacoes {
+        width: 290px;
+        height: auto;
+    }
+
+    .body .main .primeiro-quadro .informacoes h1 {
+        font-size: 23px;
+        font-family: 'Raleway';
+        line-height: 130%;
+        color: var(--Very-Dark-Blue);
+        margin: 50px 0 15px 0;
+        text-align: center;
+    }
+
+    .body .main .primeiro-quadro .informacoes p {
+        font-size: 13px;
+        font-family: 'Open Sans';
+        color: var(--Very-Dark-Blue);
+        padding: 0 0 0 0;
+        margin: 0 0 15px 0;
+        text-align: center;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email]:invalid {
+        border: 1px solid red;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=email]:hover {
+        border: 1px solid black;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=submit] {
+        padding: 11px 10px 11px 10px;
+        border: none;
+        border-radius: 5px;
+        color: var(--fundo);
+        background-color: var(--Bright-Blue);
+        margin: 0 0 100px 0;
+    }
+
+    .body .main .primeiro-quadro .informacoes form input[type=submit]:hover {
+        background-color: hsl(224, 93%, 58%, 0.6);
+        cursor: pointer;
+    }
+
+    .body .main .primeiro-quadro img {
+        width: 290px;
+        height: 200px;
+        margin: 50px 0 0 0;
+    }
+
+    /* --------------------ORGANIZAÇÃO DA SEGUNDA SEÇÃO-------------------- */
+    .body .main .segundo-quadro {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        background-color: var(--Light-Grayish-Blue);
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .body .main .segundo-quadro .informacoes {
+        width: 290px;
+        height: auto;
+        /* background-color: rgb(137, 192, 85); */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .body .main .segundo-quadro .informacoes h1 {
+        font-family: 'Raleway';
+        font-size: 20px;
+        color: var(--Very-Dark-Blue);
+        margin: 0 0 25px 0;
+        text-align: center;
+    }
+
+    .body .main .segundo-quadro .informacoes p {
+        font-family: 'Open Sans';
+        font-size: 13px;
+        padding: 0 0 0 0;
+        color: var(--Very-Dark-Blue);
+        margin: 0 0 15px 0;
+        text-align: center;
+        width: 290px;
+    }
+
+    .body .main .segundo-quadro .informacoes a {
+        color: var(--Moderate-Cyan);
+        padding: 5px 0;
+        border-bottom: none;
+        font-size: 13px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .body .main .segundo-quadro .informacoes a:hover {
+        color: hsl(170, 45%, 43%, 0.6);
+    }
+
+    .body .main .segundo-quadro .informacoes a img {
+        width: 20px;
+        height: 20px;
+        margin: 0;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia {
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        height: 190px;
+        box-shadow: 0 0 10px var(--Light-Gray);
+        margin: 50px 0 100px 0;
+        padding: 25px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia img {
+        width: 15px;
+        height: 15px;
+        margin: 0 0 10px 0;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia p {
+        padding: 0 0 0 0;
+        margin: 0 0 15px 0;
+        font-size: 12px;
+        width: 250px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario {
+        display: flex;
+        gap: 10px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario img {
+        width: 35px;
+        height: 35px;
+        border-radius: 100px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario .usuario h4 {
+        font-size: 14px;
+        color: var(--Very-Dark-Blue);
+        width: 90px;
+    }
+
+    .body .main .segundo-quadro .informacoes .relato-de-experiencia .informacoes-do-usuario .usuario p {
+        font-size: 10px;
+        text-align: start;
+        width: 140px;
+    }
+
+    .body .main .segundo-quadro img {
+        width: 290px;
+        height: 250px;
+        margin: 0 0 80px 0;
+    }
+
+    /* --------------------------ORGANIZAÇÃO DO ASIDE-------------------------- */
+    .body .aside {
+        background-color: var(--Desaturated-Blue);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+
+    .body .aside .acesso-antecipado {
+        width: 290px;
+        color: var(--fundo);
+    }
+
+    .body .aside .acesso-antecipado h1 {
+        font-family: 'Raleway';
+        font-size: 23px;
+        margin: 25px 0 15px 0;
+        text-align: center;
+        width: 290px;
+    }
+
+    .body .aside .acesso-antecipado p {
+        font-family: 'Open Sans';
+        font-size: 13px;
+        text-align: center;
+        width: 290px;
+    }
+
+    .body .aside form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body .aside form input[type=email] {
+        padding: 10px 110px 10px 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin: 0 0 15px 0;
+    }
+
+    .body .aside form input[type=email]:invalid {
+        border: 1px solid red;
+    }
+
+    .body .aside form input[type=email]:hover {
+        border: 1px solid black;
+    }
+
+    .body .aside form input[type=submit] {
+        padding: 11px;
+        width: auto;
+        background-color: var(--Bright-Blue);
+        color: var(--fundo);
+        border: none;
+        border-radius: 5px;
+    }
+
+    .body .aside form input[type=submit]:hover {
+        background-color: hsl(224, 93%, 68%);
+        cursor: pointer;
+    }
+
+    /* --------------------ORGANIZAÇÃO DO RODAPÉ-------------------- */
+    .body .rodape {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--Very-Dark-Blue);
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    .body .rodape svg {
+        color: var(--fundo);
+        margin: 0 0 35px 0;
+    }
+
+    .body .rodape .informacoes-de-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .body .rodape .informacoes-de-contato .contato p {
+        color: var(--fundo);
+        margin: 0 0 15px 0;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .body .rodape .informacoes-de-contato .links {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        width: auto;
+        font-size: 14px;
+        margin: 0 0 15px 0;
+        text-align: center;
+    }
+
+    .body .rodape .informacoes-de-contato .links a {
+        font-family: 'Open Sans';
+        color: #ffffff;
+    }
+
+    .body .rodape .informacoes-de-contato .links a:hover {
+        color: var(--Bright-Blue);
+    }
+
+    .body .rodape .informacoes-de-contato .links a:focus {
+        color: var(--Bright-Blue);
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais {
+        display: flex;
+        gap: 35px;
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais .fa-facebook,
+    .fa-twitter,
+    .fa-instagram {
+        width: 25px;
+        height: 25px;
+    }
+
+    .body .rodape .informacoes-de-contato .redes-sociais .fa-facebook :hover,
+    .fa-twitter :hover,
+    .fa-instagram :hover {
+        color: var(--Bright-Blue);
+    }
+}
