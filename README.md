@@ -42,6 +42,7 @@ Esta é a minha solução para o desafio [Fylo landing page with two column layo
 </p>
 
 ### Existem layouts de transição entre as três opções acima, para conferir entre no site publicado e clique para inspessionar a página
+- Pelo fato de ser apenas uma página de demonstração, todos os formularios estão com action="get".
 
 ### Links
 
