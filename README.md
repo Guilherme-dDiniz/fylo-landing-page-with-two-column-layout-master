@@ -77,3 +77,4 @@ Esta é a minha solução para o desafio [Fylo landing page with two column layo
 
 - GitHub - [Guilherme-dDiniz](https://github.com/Guilherme-dDiniz)
 - Frontend Mentor - [@Guilherme-dDiniz](https://www.frontendmentor.io/profile/Guilherme-dDiniz)
+- Linkedln: [Guilherme Diniz](https://www.linkedin.com/in/guilherme-diniz-dev-web/)
